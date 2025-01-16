@@ -112,3 +112,17 @@ button:hover {
 .close-btn:hover {
     background-color: #d9363e;
 }
+
+.title {
+    font-size: 20px;
+    text-align: center;
+    /* justify-content: space-around; */
+    /* margin-bottom: 20px; */
+}
+
+.title-class {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
