@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for a meal...">
+            <button id="searchButton">Search</button>
+        </div>
+
+        <div class="cards" id="cards"></div>
+
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal" id="detailsModal">
+            <h2 id="modalTitle"></h2>
+            <img id="modalImage" alt="Meal Image" style="width: 100%; border-radius: 10px;">
+            <p id="modalCategory"></p>
+            <p id="modalArea"></p>
+            <p id="modalInstructions"></p>
+            <button class="close-btn" id="closeModal">Close</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
